@@ -1,0 +1,35 @@
+args = 4.clq
+|E| = 59765  |V| = 400 p = 0.748935
+---------- Example 1: run max clique with improved coloring ----------------
+step = 0 current max. clique size = 1
+step = 16 current max. clique size = 17
+step = 282 current max. clique size = 18
+step = 421 current max. clique size = 19
+step = 596 current max. clique size = 20
+step = 14204 current max. clique size = 21
+step = 17202 current max. clique size = 22
+step = 257233 current max. clique size = 23
+step = 1426204 current max. clique size = 24
+step = 1682141 current max. clique size = 25
+step = 90306407 current max. clique size = 33
+Maximum clique: 161 147 396 362 294 394 270 380 393 197 245 324 241 157 343 340 7 186 266 112 135 17 211 353 334 8 267 389 202 19 247 154 242 
+Size = 33
+Number of steps = 97722193
+Time = 308
+Time (precise) = 307.68
+
+---------- Example 2: run max clique with improved coloring and dynamic sorting of vertices ----------------
+step = 0 current max. clique size = 1
+step = 18 current max. clique size = 19
+step = 57 current max. clique size = 20
+step = 5310 current max. clique size = 21
+step = 20702 current max. clique size = 22
+step = 464633 current max. clique size = 23
+step = 1430023 current max. clique size = 25
+step = 42297949 current max. clique size = 33
+Maximum clique: 161 157 211 135 362 112 340 334 266 396 393 343 267 147 294 245 380 353 241 17 154 202 247 7 324 186 394 270 389 242 19 8 197 
+Size = 33
+Number of steps = 45795157
+Time = 148
+Time (precise) = 147.48
+
